@@ -1,0 +1,7 @@
+x = float(input("Enter your salary: "))
+y = float(input("Enter your touchdowns: "))
+z = float(input("Enter your fumbles: "))
+gross = float(x + (y*0.1) - (z*5500))
+charity = float(gross*.12)
+total = float(gross-charity)
+print("You donated: $ " + str(charity) +" to charity and collected: $ " + str(total))
